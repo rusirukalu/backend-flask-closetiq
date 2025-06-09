@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # ClosetIQ Backend - Flask Fashion AI API
 
 A comprehensive Flask-based backend API for fashion classification, style compatibility analysis, and intelligent clothing recommendations. ClosetIQ leverages advanced machine learning models to provide fashion insights through multiple specialized services.
@@ -12,7 +10,6 @@ A comprehensive Flask-based backend API for fashion classification, style compat
 - **Knowledge Graph**: Comprehensive fashion relationship mapping
 - **Object Detection**: Clothing item localization and identification
 - **Training Pipeline**: Complete model training and retraining workflows
-
 
 ## **Project Structure**
 
@@ -35,7 +32,6 @@ backend-flask-closetiq/
 └── requirements.txt       # Python dependencies
 ```
 
-
 ## **Prerequisites**
 
 - **Python 3.12** or higher
@@ -43,7 +39,6 @@ backend-flask-closetiq/
 - **TensorFlow/Keras** for machine learning models
 - **NumPy** and **scikit-learn** for data processing
 - **Kaggle API** credentials (for dataset access)
-
 
 ## **Installation \& Setup**
 
@@ -54,7 +49,6 @@ git clone <repository-url>
 cd backend-flask-closetiq
 ```
 
-
 ### **2. Create Virtual Environment**
 
 ```bash
@@ -62,13 +56,11 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-
 ### **3. Install Dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ### **4. Environment Configuration**
 
@@ -83,7 +75,6 @@ UPLOAD_FOLDER=uploads
 MODEL_PATH=models/trained
 ```
 
-
 ### **5. Configure Kaggle API**
 
 Place your `kaggle.json` credentials file in the `config/` directory:
@@ -92,7 +83,6 @@ Place your `kaggle.json` credentials file in the `config/` directory:
 cp path/to/your/kaggle.json config/kaggle.json
 chmod 600 config/kaggle.json
 ```
-
 
 ### **6. Initialize Application**
 
@@ -113,24 +103,20 @@ The API will be available at `http://localhost:5000`
 - `POST /api/classify` - Classify fashion items and extract attributes
 - `POST /api/attributes` - Get detailed attribute predictions
 
-
 ### **Recommendation Service**
 
 - `POST /api/recommend` - Get fashion recommendations
 - `POST /api/similarity` - Find similar fashion items
-
 
 ### **Compatibility Service**
 
 - `POST /api/compatibility` - Check style compatibility between items
 - `POST /api/outfit-score` - Score complete outfit combinations
 
-
 ### **Training Service**
 
 - `POST /api/train` - Trigger model training
 - `GET /api/training-status` - Check training progress
-
 
 ## **Model Training**
 
@@ -146,7 +132,6 @@ python scripts/train_model.py
 python scripts/retrain_model.py
 ```
 
-
 ### **Advanced Training Pipeline**
 
 ```bash
@@ -156,7 +141,6 @@ python scripts/training/step2_data_improvement.py
 python scripts/training/step3_multilabel_attribute_prediction.py
 # ... continue with additional steps as needed
 ```
-
 
 ### **Model Analysis**
 
@@ -168,7 +152,6 @@ python scripts/analysis/model_analysis.py
 python scripts/analysis/visual_categorizer.py
 ```
 
-
 ## **Configuration**
 
 Configuration files are located in the `config/` directory:
@@ -176,7 +159,6 @@ Configuration files are located in the `config/` directory:
 - `settings.py` - Main application settings
 - `model_config.py` - ML model configurations
 - `*_config.json` - Service-specific configurations
-
 
 ## **Testing**
 
@@ -193,7 +175,6 @@ python -m pytest tests/test_integration.py
 python -m pytest tests/ --cov=.
 ```
 
-
 ## **Services Architecture**
 
 ### **Core Services**
@@ -205,13 +186,11 @@ python -m pytest tests/ --cov=.
 - **Recommendation Service**: Provides personalized fashion recommendations
 - **Training Service**: Handles model training and retraining workflows
 
-
 ### **Utility Modules**
 
 - **Image Processor**: Image preprocessing and augmentation
 - **Model Manager**: Model loading, saving, and version management
 - **Data Utils**: Data processing and transformation utilities
-
 
 ## **Model Information**
 
@@ -254,7 +233,6 @@ pip install gunicorn
 gunicorn -w 4 -b 0.0.0.0:5000 app:app
 ```
 
-
 ### **Docker Deployment**
 
 ```bash
@@ -264,7 +242,6 @@ docker build -t closetiq-backend .
 # Run container
 docker run -p 5000:5000 closetiq-backend
 ```
-
 
 ## **Contributing**
 
@@ -281,26 +258,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## **Support**
 
 For questions and support, please open an issue in the repository or contact the development team.
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://auth0.com/blog/best-practices-for-flask-api-development/
-
-[^2]: https://github.com/rochacbruno/flask-project-template/blob/main/README.md
-
-[^3]: https://talent500.com/blog/deploying-machine-learning-models-with-flask-a-step-by-step-guide/
-
-[^4]: https://cubettech.com/resources/blog/the-essential-readme-file-elevating-your-project-with-a-comprehensive-document/
-
-[^5]: https://vsupalov.com/flask-app-starting-project/
-
-[^6]: https://github.com/zombimann/flask-simple-backend-project/blob/master/README.md
-
-[^7]: https://github.com/apryor6/flask_api_example
-
-[^8]: https://flask.palletsprojects.com
-
-[^9]: https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
-
-[^10]: https://www.youtube.com/watch?v=UbCWoMf80PY
-
