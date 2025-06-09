@@ -1,0 +1,11 @@
+{
+  "test_summary": {
+    "timestamp": "2025-05-29T13:17:18.902514",
+    "model_path": "confusion_resolved_model.keras",
+    "total_tests": 125,
+    "avg_prediction_time": 0.04774052810668945,
+    "model_accuracy": 0.0,
+    "high_confidence_rate": 0.208,
+    "model_size_mb": 9.872844696044922
+  }
+}

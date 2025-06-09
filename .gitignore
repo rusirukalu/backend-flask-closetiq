@@ -1,0 +1,191 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Sensitive configuration files
+config/kaggle.json
+*.key
+*.pem
+*.crt
+secrets.json
+
+# Machine Learning Models & Data
+models/trained/*.keras
+models/trained/*.h5
+models/trained/*.pkl
+models/trained/*.joblib
+models/weights/
+models/checkpoints/
+models/exports/
+models/versions/
+*.npy
+*.npz
+fashion_knowledge_graph.pkl
+fashion_similarity_database.json
+features_matrix.npy
+multilabel_encoders.pkl
+
+# Model metadata (keep structure but ignore large files)
+models/metadata/*.json
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Uploads directory
+uploads/*
+!uploads/.gitkeep
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
+notebooks/*/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Large datasets
+data/
+datasets/
+*.csv
+*.json
+!config/*.json
+!models/metadata/*.json
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# TensorFlow
+*.pb
+saved_model/
+checkpoint
+*.ckpt*
+*.meta
+*.index
+
+# Keras
+*.h5
+*.hdf5
+
+# Scikit-learn
+*.pkl
+*.joblib
+
+# Node modules (if any frontend dependencies)
+node_modules/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Local development
+local_settings.py

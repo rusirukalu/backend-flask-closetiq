@@ -1,0 +1,147 @@
+{
+  "creation_date": "2025-05-29T15:42:40.718201",
+  "base_model": "final_enhanced_model.keras",
+  "attributes_config": {
+    "colors": {
+      "classes": [
+        "black",
+        "white",
+        "gray",
+        "brown",
+        "red",
+        "pink",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "purple",
+        "beige",
+        "navy",
+        "multicolor"
+      ],
+      "type": "multi_label",
+      "max_labels": 3,
+      "description": "Primary and secondary colors"
+    },
+    "patterns": {
+      "classes": [
+        "solid",
+        "striped",
+        "checkered",
+        "floral",
+        "geometric",
+        "abstract",
+        "animal_print",
+        "polka_dots",
+        "plaid",
+        "paisley"
+      ],
+      "type": "multi_label",
+      "max_labels": 2,
+      "description": "Visual patterns and designs"
+    },
+    "style_attributes": {
+      "classes": [
+        "casual",
+        "formal",
+        "vintage",
+        "modern",
+        "bohemian",
+        "minimalist",
+        "edgy",
+        "romantic",
+        "sporty",
+        "classic"
+      ],
+      "type": "multi_label",
+      "max_labels": 3,
+      "description": "Overall style characteristics"
+    },
+    "material_properties": {
+      "classes": [
+        "lightweight",
+        "heavy",
+        "stretchy",
+        "rigid",
+        "breathable",
+        "waterproof",
+        "warm",
+        "cool",
+        "structured",
+        "flowy"
+      ],
+      "type": "multi_label",
+      "max_labels": 4,
+      "description": "Material characteristics and properties"
+    },
+    "occasion_suitability": {
+      "classes": [
+        "work",
+        "casual_day",
+        "date_night",
+        "party",
+        "formal_event",
+        "workout",
+        "beach",
+        "travel",
+        "home",
+        "outdoor"
+      ],
+      "type": "multi_label",
+      "max_labels": 5,
+      "description": "Suitable occasions for wearing"
+    },
+    "seasonal_appropriate": {
+      "classes": [
+        "spring",
+        "summer",
+        "fall",
+        "winter",
+        "transitional"
+      ],
+      "type": "multi_label",
+      "max_labels": 3,
+      "description": "Seasonal appropriateness"
+    },
+    "care_instructions": {
+      "classes": [
+        "machine_wash",
+        "hand_wash",
+        "dry_clean",
+        "air_dry",
+        "tumble_dry",
+        "iron",
+        "steam",
+        "delicate"
+      ],
+      "type": "multi_label",
+      "max_labels": 4,
+      "description": "Garment care requirements"
+    },
+    "size_fit": {
+      "classes": [
+        "runs_small",
+        "true_to_size",
+        "runs_large",
+        "stretchy_fit",
+        "fitted",
+        "loose",
+        "oversized",
+        "adjustable"
+      ],
+      "type": "multi_label",
+      "max_labels": 2,
+      "description": "Size and fit characteristics"
+    }
+  },
+  "training_config": {
+    "epochs": 30,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "validation_split": 0.2,
+    "early_stopping_patience": 8,
+    "reduce_lr_patience": 4
+  },
+  "total_attribute_models": 8,
+  "system_type": "Multi-label Attribute Prediction"
+}

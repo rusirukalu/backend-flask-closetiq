@@ -1,0 +1,503 @@
+{
+  "creation_date": "2025-05-29T15:59:10.545524",
+  "nodes_count": 160,
+  "edges_count": 243,
+  "fashion_ontology": {
+    "garment_types": {
+      "tops": [
+        "shirts",
+        "blouses",
+        "t-shirts",
+        "sweaters",
+        "tanks",
+        "cardigans"
+      ],
+      "bottoms": [
+        "pants",
+        "jeans",
+        "shorts",
+        "skirts",
+        "leggings",
+        "trousers"
+      ],
+      "dresses": [
+        "casual_dress",
+        "formal_dress",
+        "maxi_dress",
+        "mini_dress"
+      ],
+      "outerwear": [
+        "jackets",
+        "coats",
+        "blazers",
+        "vests",
+        "parkas"
+      ],
+      "footwear": [
+        "sneakers",
+        "dress_shoes",
+        "boots",
+        "sandals",
+        "heels"
+      ],
+      "accessories": [
+        "bags",
+        "jewelry",
+        "belts",
+        "hats",
+        "scarves",
+        "watches"
+      ]
+    },
+    "style_concepts": {
+      "classic": [
+        "timeless",
+        "traditional",
+        "elegant",
+        "refined"
+      ],
+      "casual": [
+        "relaxed",
+        "comfortable",
+        "everyday",
+        "laid-back"
+      ],
+      "formal": [
+        "professional",
+        "business",
+        "sophisticated",
+        "polished"
+      ],
+      "trendy": [
+        "fashionable",
+        "current",
+        "stylish",
+        "contemporary"
+      ],
+      "bohemian": [
+        "free-spirited",
+        "artistic",
+        "unconventional",
+        "eclectic"
+      ],
+      "minimalist": [
+        "simple",
+        "clean",
+        "understated",
+        "modern"
+      ],
+      "edgy": [
+        "bold",
+        "daring",
+        "unconventional",
+        "dramatic"
+      ],
+      "romantic": [
+        "feminine",
+        "soft",
+        "delicate",
+        "graceful"
+      ]
+    },
+    "color_relationships": {
+      "primary": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "secondary": [
+        "green",
+        "orange",
+        "purple"
+      ],
+      "neutral": [
+        "black",
+        "white",
+        "gray",
+        "beige",
+        "brown"
+      ],
+      "warm": [
+        "red",
+        "orange",
+        "yellow",
+        "pink",
+        "coral"
+      ],
+      "cool": [
+        "blue",
+        "green",
+        "purple",
+        "teal",
+        "navy"
+      ],
+      "earth_tones": [
+        "brown",
+        "tan",
+        "olive",
+        "rust",
+        "ochre"
+      ]
+    },
+    "occasions": {
+      "professional": [
+        "work",
+        "business_meeting",
+        "interview",
+        "conference"
+      ],
+      "social": [
+        "party",
+        "date",
+        "dinner",
+        "celebration",
+        "wedding"
+      ],
+      "casual": [
+        "weekend",
+        "shopping",
+        "lunch",
+        "errands",
+        "travel"
+      ],
+      "formal": [
+        "gala",
+        "opera",
+        "black_tie",
+        "cocktail",
+        "ceremony"
+      ],
+      "active": [
+        "gym",
+        "sports",
+        "hiking",
+        "yoga",
+        "running"
+      ]
+    },
+    "seasons": {
+      "spring": [
+        "light_layers",
+        "pastels",
+        "transitional",
+        "fresh"
+      ],
+      "summer": [
+        "lightweight",
+        "breathable",
+        "bright_colors",
+        "minimal"
+      ],
+      "fall": [
+        "layers",
+        "earth_tones",
+        "cozy",
+        "rich_colors"
+      ],
+      "winter": [
+        "warm",
+        "heavy_fabrics",
+        "dark_colors",
+        "coverage"
+      ]
+    }
+  },
+  "compatibility_rules": {
+    "color_harmony": {
+      "complementary": [
+        [
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "orange"
+        ],
+        [
+          "yellow",
+          "purple"
+        ],
+        [
+          "navy",
+          "coral"
+        ],
+        [
+          "forest_green",
+          "burgundy"
+        ]
+      ],
+      "analogous": [
+        [
+          "blue",
+          "blue_green",
+          "green"
+        ],
+        [
+          "red",
+          "red_orange",
+          "orange"
+        ],
+        [
+          "yellow",
+          "yellow_green",
+          "green"
+        ]
+      ],
+      "triadic": [
+        [
+          "red",
+          "yellow",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "purple"
+        ]
+      ],
+      "monochromatic": {
+        "blue": [
+          "navy",
+          "royal_blue",
+          "sky_blue",
+          "powder_blue"
+        ],
+        "gray": [
+          "charcoal",
+          "slate",
+          "silver",
+          "light_gray"
+        ]
+      },
+      "neutral_pairs": [
+        [
+          "black",
+          "white"
+        ],
+        [
+          "gray",
+          "white"
+        ],
+        [
+          "navy",
+          "cream"
+        ],
+        [
+          "brown",
+          "beige"
+        ],
+        [
+          "charcoal",
+          "ivory"
+        ]
+      ]
+    },
+    "style_compatibility": {
+      "high_compatibility": [
+        [
+          "classic",
+          "elegant"
+        ],
+        [
+          "casual",
+          "comfortable"
+        ],
+        [
+          "formal",
+          "professional"
+        ],
+        [
+          "bohemian",
+          "artistic"
+        ],
+        [
+          "minimalist",
+          "modern"
+        ],
+        [
+          "edgy",
+          "bold"
+        ]
+      ],
+      "moderate_compatibility": [
+        [
+          "classic",
+          "formal"
+        ],
+        [
+          "casual",
+          "bohemian"
+        ],
+        [
+          "minimalist",
+          "classic"
+        ],
+        [
+          "trendy",
+          "edgy"
+        ]
+      ],
+      "style_conflicts": [
+        [
+          "formal",
+          "casual"
+        ],
+        [
+          "minimalist",
+          "bohemian"
+        ],
+        [
+          "classic",
+          "edgy"
+        ],
+        [
+          "elegant",
+          "grunge"
+        ]
+      ]
+    },
+    "garment_combinations": {
+      "classic_pairs": [
+        [
+          "blazer",
+          "trousers"
+        ],
+        [
+          "shirt",
+          "jeans"
+        ],
+        [
+          "dress",
+          "heels"
+        ],
+        [
+          "sweater",
+          "skirt"
+        ]
+      ],
+      "layering_rules": [
+        [
+          "tank",
+          "cardigan"
+        ],
+        [
+          "shirt",
+          "blazer"
+        ],
+        [
+          "dress",
+          "jacket"
+        ],
+        [
+          "tshirt",
+          "vest"
+        ]
+      ],
+      "avoid_combinations": [
+        [
+          "formal_shoes",
+          "athletic_wear"
+        ],
+        [
+          "evening_gown",
+          "sneakers"
+        ],
+        [
+          "business_suit",
+          "flip_flops"
+        ]
+      ]
+    }
+  },
+  "fashion_rules": {
+    "proportion_rules": {
+      "fitted_top_loose_bottom": "When wearing a fitted top, pair with looser bottoms",
+      "loose_top_fitted_bottom": "When wearing a loose top, pair with fitted bottoms",
+      "avoid_baggy_on_baggy": "Avoid wearing baggy items together"
+    },
+    "color_rules": {
+      "no_more_than_three": "Limit outfit to 3 main colors maximum",
+      "neutral_base": "Use neutrals as base, add one accent color",
+      "metallic_mixing": "Don't mix gold and silver metals in one outfit"
+    },
+    "occasion_rules": {
+      "workplace_coverage": "Ensure appropriate coverage for professional settings",
+      "formal_event_elegance": "Choose elevated pieces for formal occasions",
+      "casual_comfort": "Prioritize comfort and practicality for casual wear"
+    },
+    "seasonal_rules": {
+      "fabric_weight": "Match fabric weight to season temperature",
+      "color_seasonality": "Choose colors appropriate for the season",
+      "layering_strategy": "Use layering for transitional seasons"
+    }
+  },
+  "style_influences": {
+    "style_evolution": {
+      "classic": {
+        "influenced_by": [
+          "audrey_hepburn",
+          "grace_kelly"
+        ],
+        "influences": [
+          "timeless_elegance",
+          "refined_simplicity"
+        ]
+      },
+      "bohemian": {
+        "influenced_by": [
+          "1960s_hippie",
+          "folk_culture"
+        ],
+        "influences": [
+          "free_spirit",
+          "artistic_expression"
+        ]
+      },
+      "minimalist": {
+        "influenced_by": [
+          "scandinavian_design",
+          "japanese_aesthetics"
+        ],
+        "influences": [
+          "clean_lines",
+          "functional_beauty"
+        ]
+      }
+    },
+    "cultural_influences": {
+      "parisian_chic": [
+        "effortless_elegance",
+        "quality_basics",
+        "understated_luxury"
+      ],
+      "italian_style": [
+        "impeccable_tailoring",
+        "luxury_fabrics",
+        "confident_flair"
+      ],
+      "japanese_fashion": [
+        "innovative_cutting",
+        "experimental_silhouettes",
+        "attention_to_detail"
+      ]
+    },
+    "trend_cycles": {
+      "recurring_trends": [
+        "vintage_revival",
+        "minimalism",
+        "maximalism",
+        "athleisure"
+      ],
+      "micro_trends": [
+        "seasonal_colors",
+        "specific_silhouettes",
+        "pattern_preferences"
+      ],
+      "macro_trends": [
+        "sustainability",
+        "technology_integration",
+        "customization"
+      ]
+    }
+  }
+}

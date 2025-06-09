@@ -1,0 +1,395 @@
+{
+  "creation_date": "2025-05-29T15:47:03.549707",
+  "compatibility_rules": {
+    "color_harmony": {
+      "weight": 0.25,
+      "rules": {
+        "complementary_pairs": [
+          [
+            "red",
+            "green"
+          ],
+          [
+            "blue",
+            "orange"
+          ],
+          [
+            "yellow",
+            "purple"
+          ],
+          [
+            "navy",
+            "white"
+          ],
+          [
+            "black",
+            "white"
+          ],
+          [
+            "gray",
+            "any"
+          ]
+        ],
+        "analogous_groups": [
+          [
+            "red",
+            "orange",
+            "pink"
+          ],
+          [
+            "blue",
+            "navy",
+            "teal"
+          ],
+          [
+            "green",
+            "olive",
+            "lime"
+          ],
+          [
+            "purple",
+            "magenta",
+            "violet"
+          ]
+        ],
+        "neutral_colors": [
+          "black",
+          "white",
+          "gray",
+          "beige",
+          "brown",
+          "navy"
+        ],
+        "seasonal_palettes": {
+          "spring": [
+            "pastels",
+            "light_colors",
+            "fresh_tones"
+          ],
+          "summer": [
+            "bright_colors",
+            "whites",
+            "light_blues"
+          ],
+          "fall": [
+            "earth_tones",
+            "browns",
+            "deep_colors"
+          ],
+          "winter": [
+            "dark_colors",
+            "jewel_tones",
+            "contrasts"
+          ]
+        },
+        "clash_combinations": [
+          [
+            "red",
+            "pink"
+          ],
+          [
+            "orange",
+            "red"
+          ],
+          [
+            "green",
+            "blue"
+          ]
+        ]
+      }
+    },
+    "style_consistency": {
+      "weight": 0.2,
+      "rules": {
+        "compatible_styles": {
+          "casual": [
+            "relaxed",
+            "comfortable",
+            "sporty",
+            "bohemian"
+          ],
+          "formal": [
+            "professional",
+            "classic",
+            "elegant",
+            "sophisticated"
+          ],
+          "romantic": [
+            "feminine",
+            "soft",
+            "vintage",
+            "delicate"
+          ],
+          "edgy": [
+            "modern",
+            "bold",
+            "unconventional",
+            "dramatic"
+          ],
+          "minimalist": [
+            "clean",
+            "simple",
+            "modern",
+            "understated"
+          ]
+        },
+        "incompatible_styles": {
+          "formal": [
+            "grunge",
+            "very_casual",
+            "sporty"
+          ],
+          "romantic": [
+            "edgy",
+            "harsh",
+            "overly_structured"
+          ],
+          "minimalist": [
+            "overly_decorative",
+            "busy_patterns"
+          ]
+        }
+      }
+    },
+    "occasion_matching": {
+      "weight": 0.2,
+      "rules": {
+        "work": {
+          "required_attributes": [
+            "professional",
+            "appropriate_coverage"
+          ],
+          "preferred_colors": [
+            "navy",
+            "black",
+            "gray",
+            "white",
+            "brown"
+          ],
+          "avoid_attributes": [
+            "too_casual",
+            "revealing",
+            "flashy"
+          ]
+        },
+        "formal_event": {
+          "required_attributes": [
+            "elegant",
+            "sophisticated"
+          ],
+          "preferred_colors": [
+            "black",
+            "navy",
+            "jewel_tones"
+          ],
+          "avoid_attributes": [
+            "casual",
+            "sporty",
+            "overly_bright"
+          ]
+        },
+        "casual_day": {
+          "required_attributes": [
+            "comfortable",
+            "relaxed"
+          ],
+          "preferred_colors": [
+            "any"
+          ],
+          "avoid_attributes": [
+            "overly_formal",
+            "uncomfortable"
+          ]
+        },
+        "date_night": {
+          "required_attributes": [
+            "attractive",
+            "confident"
+          ],
+          "preferred_colors": [
+            "romantic_colors",
+            "flattering_tones"
+          ],
+          "avoid_attributes": [
+            "too_casual",
+            "unflattering"
+          ]
+        }
+      }
+    },
+    "seasonal_appropriateness": {
+      "weight": 0.15,
+      "rules": {
+        "spring": {
+          "preferred_materials": [
+            "lightweight",
+            "breathable"
+          ],
+          "preferred_colors": [
+            "pastels",
+            "fresh_tones"
+          ],
+          "suitable_items": [
+            "light_jackets",
+            "transitional_pieces"
+          ]
+        },
+        "summer": {
+          "preferred_materials": [
+            "very_light",
+            "breathable",
+            "moisture_wicking"
+          ],
+          "preferred_colors": [
+            "bright",
+            "light",
+            "white"
+          ],
+          "suitable_items": [
+            "shorts",
+            "sleeveless",
+            "sandals"
+          ]
+        },
+        "fall": {
+          "preferred_materials": [
+            "medium_weight",
+            "layerable"
+          ],
+          "preferred_colors": [
+            "earth_tones",
+            "deeper_colors"
+          ],
+          "suitable_items": [
+            "sweaters",
+            "boots",
+            "jackets"
+          ]
+        },
+        "winter": {
+          "preferred_materials": [
+            "warm",
+            "heavy",
+            "insulating"
+          ],
+          "preferred_colors": [
+            "dark",
+            "rich"
+          ],
+          "suitable_items": [
+            "coats",
+            "boots",
+            "warm_accessories"
+          ]
+        }
+      }
+    },
+    "formality_level": {
+      "weight": 0.2,
+      "rules": {
+        "formality_scale": {
+          "very_casual": 1,
+          "casual": 2,
+          "smart_casual": 3,
+          "business_casual": 4,
+          "business_formal": 5,
+          "formal": 6,
+          "black_tie": 7
+        },
+        "compatibility_threshold": 2,
+        "category_formality": {
+          "tshirts_tops": 2,
+          "shirts_blouses": 4,
+          "dresses": 5,
+          "pants_jeans": 3,
+          "shorts": 1,
+          "skirts": 4,
+          "jackets_coats": 5,
+          "sweaters": 3,
+          "shoes_sneakers": 2,
+          "shoes_formal": 6,
+          "bags_accessories": 3
+        }
+      }
+    }
+  },
+  "outfit_templates": {
+    "casual_day": {
+      "required": [
+        "tops",
+        "bottoms",
+        "shoes"
+      ],
+      "optional": [
+        "accessories",
+        "outerwear"
+      ],
+      "style_preferences": [
+        "casual",
+        "comfortable",
+        "relaxed"
+      ]
+    },
+    "work_professional": {
+      "required": [
+        "tops",
+        "bottoms",
+        "shoes"
+      ],
+      "optional": [
+        "accessories",
+        "outerwear"
+      ],
+      "style_preferences": [
+        "formal",
+        "professional",
+        "classic"
+      ]
+    },
+    "date_night": {
+      "required": [
+        "tops_or_dress",
+        "shoes"
+      ],
+      "optional": [
+        "accessories",
+        "outerwear"
+      ],
+      "style_preferences": [
+        "romantic",
+        "elegant",
+        "attractive"
+      ]
+    },
+    "party_evening": {
+      "required": [
+        "dress_or_outfit",
+        "shoes"
+      ],
+      "optional": [
+        "accessories"
+      ],
+      "style_preferences": [
+        "glamorous",
+        "bold",
+        "trendy"
+      ]
+    },
+    "workout_sport": {
+      "required": [
+        "athletic_top",
+        "athletic_bottom",
+        "sneakers"
+      ],
+      "optional": [
+        "accessories"
+      ],
+      "style_preferences": [
+        "sporty",
+        "functional",
+        "comfortable"
+      ]
+    }
+  },
+  "system_type": "Style Compatibility Engine"
+}

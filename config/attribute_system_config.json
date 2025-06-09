@@ -1,0 +1,133 @@
+{
+  "creation_date": "2025-05-29T15:26:49.019383",
+  "base_model": "final_enhanced_model.keras",
+  "attributes": {
+    "colors": {
+      "classes": [
+        "black",
+        "white",
+        "gray",
+        "brown",
+        "red",
+        "pink",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "purple",
+        "beige",
+        "navy",
+        "multicolor"
+      ],
+      "type": "multi_label",
+      "description": "Primary and secondary colors in the garment"
+    },
+    "patterns": {
+      "classes": [
+        "solid",
+        "striped",
+        "checkered",
+        "floral",
+        "geometric",
+        "abstract",
+        "animal_print",
+        "polka_dots",
+        "plaid",
+        "paisley"
+      ],
+      "type": "single_label",
+      "description": "Visual patterns and designs"
+    },
+    "sleeve_length": {
+      "classes": [
+        "sleeveless",
+        "short_sleeve",
+        "three_quarter",
+        "long_sleeve",
+        "not_applicable"
+      ],
+      "type": "single_label",
+      "description": "Length of sleeves for tops"
+    },
+    "neckline": {
+      "classes": [
+        "crew_neck",
+        "v_neck",
+        "scoop_neck",
+        "high_neck",
+        "off_shoulder",
+        "collar",
+        "hoodie",
+        "not_applicable"
+      ],
+      "type": "single_label",
+      "description": "Neckline style for tops"
+    },
+    "fit_type": {
+      "classes": [
+        "tight",
+        "fitted",
+        "regular",
+        "loose",
+        "oversized"
+      ],
+      "type": "single_label",
+      "description": "How the garment fits the body"
+    },
+    "material_texture": {
+      "classes": [
+        "smooth",
+        "textured",
+        "knit",
+        "woven",
+        "leather",
+        "denim",
+        "silk",
+        "cotton",
+        "synthetic",
+        "wool"
+      ],
+      "type": "multi_label",
+      "description": "Material and texture characteristics"
+    },
+    "occasion": {
+      "classes": [
+        "casual",
+        "business",
+        "formal",
+        "sport",
+        "party",
+        "beach",
+        "home"
+      ],
+      "type": "multi_label",
+      "description": "Suitable occasions for wearing"
+    },
+    "season": {
+      "classes": [
+        "spring",
+        "summer",
+        "fall",
+        "winter",
+        "all_season"
+      ],
+      "type": "multi_label",
+      "description": "Seasonal appropriateness"
+    }
+  },
+  "base_categories": [
+    "shirts_blouses",
+    "tshirts_tops",
+    "dresses",
+    "pants_jeans",
+    "shorts",
+    "skirts",
+    "jackets_coats",
+    "sweaters",
+    "shoes_sneakers",
+    "shoes_formal",
+    "bags_accessories"
+  ],
+  "total_attribute_models": 8,
+  "synthetic_samples": 1000
+}
